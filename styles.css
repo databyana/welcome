@@ -1,0 +1,172 @@
+/* ======================================================
+   RESET & BASE
+====================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont,
+                 "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+/* ======================================================
+   HERO SECTION
+====================================================== */
+.hero {
+    height: 100vh;
+    background: linear-gradient(
+        180deg,
+        #5b1b4d 0%,
+        #7b2d4f 100%
+    );
+    color: #ffffff;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    width: 90%;
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero h2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+/* ======================================================
+   SOCIAL ICONS
+====================================================== */
+.social-icons {
+    margin: 1.8rem 0;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    margin: 0 6px;
+    transition: all 0.25s ease;
+}
+
+.social-icons a:hover {
+    background-color: #ffffff;
+    color: #5b1b4d;
+}
+
+/* ======================================================
+   HERO NAV
+====================================================== */
+.hero-nav {
+    font-size: 0.95rem;
+}
+
+.hero-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero-nav span {
+    margin: 0 8px;
+}
+
+/* ======================================================
+   SCROLL INDICATOR
+====================================================== */
+.scroll-indicator {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* ======================================================
+   ABOUT SECTION
+====================================================== */
+.about {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* ======================================================
+   SKILLS SECTION
+====================================================== */
+.skills {
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 0 1.5rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2.5rem;
+}
+
+.skill-card {
+    text-align: center;
+}
+
+.skill-card h3 {
+    margin-bottom: 1rem;
+}
+
+.skill-card .icons {
+    margin-bottom: 1rem;
+}
+
+.skill-card .icons i {
+    font-size: 1.8rem;
+    margin: 0 6px;
+    color: #7b2d4f;
+}
+
+/* ======================================================
+   FOOTER
+====================================================== */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: #777;
+}
